@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+	<definition name=".homeLayout" template="/WEB-INF/view/layout/tmp.jsp">
+	    <put-attribute name="title" value="dailey-library" />
+	  	<put-attribute name="header" value="/WEB-INF/view/layout/header.jsp" />
+		<put-attribute name="body" value="/WEB-INF/view/home/main.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/view/layout/footer.jsp" />
+	</definition>
+	
+	
+	<definition name=".signup" template="/WEB-INF/view/signup/tmp.jsp">
+	</definition>
+
+	<definition name=".*.*.*" extends=".homeLayout">
+		<put-attribute name="body" value="/WEB-INF/view/{1}/{2}/{3}.jsp"/>
+	</definition>
+	<definition name=".*.*" extends=".homeLayout">
+		<put-attribute name="body" value="/WEB-INF/view/{1}/{2}.jsp"/>
+	</definition>
+	<definition name=".*" extends=".homeLayout">
+    	  <put-attribute name="body" value="/WEB-INF/view/{1}.jsp" />
+	</definition>
+
+</tiles-definitions>
