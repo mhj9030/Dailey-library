@@ -1,8 +1,50 @@
-.jumbotron{
-	background-color : #fff;
+.jumbotron {
+	background-color: #fff;
 }
 
-.jumbotron p{
-	margin-bottom : 1px;
-	
+.jumbotron p {
+	margin-bottom: 1px;
+}
+
+.img-responsive {
+	max-height: 100%;
+	max-width: 600px;
+}
+
+.daileymain {
+	position: relative;
+	height: 360px;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+.daileymain-today {
+	position: absolute;
+	top: 40%;
+	width: 100%;
+	text-align: center;
+}
+
+.daileymain-title {
+	display: block;
+	padding-top: 12px;
+	line-height: 1.2;
+	font-size: 26px;
+	color: #fff;
+	font-family: 'Nanum Myeongjo', serif;
+	letter-spacing: -0.1em;
+}
+
+.daileymain-desc {
+	display: block;
+	rlawnstjq line-height: 20px;
+	color: #fff;
+}
+
+.daileymain-by {
+	display: block;
+	margin-top: 10px;
+	line-height: 20px;
+	color: #fff;
 }
