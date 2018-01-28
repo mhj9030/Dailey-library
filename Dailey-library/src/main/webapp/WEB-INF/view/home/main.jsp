@@ -16,6 +16,7 @@
     
 
 <div class="row">
+<p class="dailey-story">Today Story.</p>
   <div class="col-md-4 daileymain">
   	<img src="http://operaontheavalon.com/wp-content/uploads/2017/07/pSwM6F3.jpg" alt="숲" class="img-responsive">
   	<div class="daileymain-today">
@@ -62,10 +63,7 @@
   </div>
 </div>
 
-<div class="row">
-  <div class="col-md-6">.col-md-6</div>
-  <div class="col-md-6">.col-md-6</div>
-</div>
+
 
 
 
