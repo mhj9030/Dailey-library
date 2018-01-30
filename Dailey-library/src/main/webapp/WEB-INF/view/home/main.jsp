@@ -19,6 +19,7 @@
 <p class="dailey-story">Today Story.</p>
   <div class="col-md-4 daileymain">
   	<img src="http://operaontheavalon.com/wp-content/uploads/2017/07/pSwM6F3.jpg" alt="숲" class="img-responsive">
+  	<div class="mask"></div>
   	<div class="daileymain-today">
   		<div class="daileymain-title">
   			<p>모두의 삶은 존중받아 마땅하다.</p>
@@ -30,10 +31,12 @@
   			<p>by J company</p>
   		</div>
   	</div>
+  	
   </div>
   
   <div class="col-md-4 daileymain">
   	<img src="https://static.pexels.com/photos/4827/nature-forest-trees-fog.jpeg" alt="숲" class="img-responsive">
+  	<div class="mask"></div>
   	  <div class="daileymain-today">
   		<div class="daileymain-title">
   			<p>만들어 놓으면 일주일 아침이 든든해</p>
@@ -49,6 +52,7 @@
   
   <div class="col-md-4 daileymain">
   	<img src="https://i.imgur.com/pbxr681.jpg" alt="숲" class="img-responsive">
+  	<div class="mask"></div>
   	 <div class="daileymain-today">
   		<div class="daileymain-title">
   			<p>이별에 숨어있는 진짜 이별의 이유</p>
@@ -62,6 +66,8 @@
   	</div>
   </div>
 </div>
+
+
 
 
 
