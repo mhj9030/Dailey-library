@@ -9,6 +9,8 @@ public class HomeController {
 	@RequestMapping(value = "/index")
 	public String daileyHome() {
 		
+		// 커밋 테스트
+		
 		return ".homeLayout";
 	}
 
