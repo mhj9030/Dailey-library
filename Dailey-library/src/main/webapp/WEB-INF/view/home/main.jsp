@@ -66,11 +66,9 @@
   	</div>
   </div>
 </div>
+</div>
 
-
-
-
-
-
-
+<div class="daileyfooter">
+<span class="bg_book"></span>
+	<div></div>
 </div>
